@@ -7,10 +7,10 @@ issueTrackerURL="https://github.com/wonderbird/minecraft-forge-hello-world" #opt
 modId="sboosmodhello"
 version="${file.jarVersion}"
 displayName="SBoos Mod Hello" #mandatory
-updateJSONURL="https://github.com/wonderbird/minecraft-forge-hello-world" #optional
-displayURL="https://github.com/wonderbird/minecraft-forge-hello-world" #optional
+updateJSONURL="https://raw.githubusercontent.com/wonderbird/minecraft-forge-hello-world/main/update.json"
+displayURL="https://github.com/wonderbird/minecraft-forge-hello-world"
 logoFile="examplemod.png" #optional
-credits="Thanks for this example mod goes to the Forge authors" #optional
+credits="Thanks for this example mod goes to the Forge authors"
 authors="SBoos" #optional
 description='''
 This mod just shows Hello World :-)
