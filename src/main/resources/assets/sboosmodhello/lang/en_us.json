@@ -1,3 +1,4 @@
 {
-    "item.sboosmodhello.hello_note": "Hello World"
+    "item.sboosmodhello.hello_note": "Hello World",
+    "block.sboosmodhello.hello_block": "Hello Block"
 }

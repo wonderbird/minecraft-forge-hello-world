@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": [
+      { "model": "sboosmodhello:block/hello_block" }
+    ]
+  }
+}

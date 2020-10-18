@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "sboosmodhello:block/hello_block"
+  }
+}

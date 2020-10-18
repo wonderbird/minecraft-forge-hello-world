@@ -39,6 +39,7 @@ public class SBoosModHello
         MinecraftForge.EVENT_BUS.register(this);
 
         ModItems.ITEMS.register(FMLJavaModLoadingContext.get().getModEventBus());
+        ModBlocks.BLOCKS.register(FMLJavaModLoadingContext.get().getModEventBus());
     }
 
     private void setup(final FMLCommonSetupEvent event)
