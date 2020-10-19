@@ -22,16 +22,22 @@ jobs:
       run: chmod +x gradlew
     - name: Build with Gradle
       run: ./gradlew build
-    - uses: actions/upload-artifact@v2
+    - name: Upload build artifact
+      uses: actions/upload-artifact@v2
       with:
         name: Package
         path: build/libs
+        retention-days: 1
 
   release:
     needs: build
     runs-on: ubuntu-latest
     if: github.ref == 'refs/heads/main'
     steps:
+    - name: Download build artifact
+      uses: actions/download-artifact@v2
+      with:
+        name: Package
     - name: Create Release
       id: create_release
       uses: actions/create-release@v1
