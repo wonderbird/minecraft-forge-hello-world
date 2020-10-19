@@ -5,7 +5,7 @@ issueTrackerURL="https://github.com/wonderbird/minecraft-forge-hello-world" #opt
 
 [[mods]]
 modId="sboosmodhello"
-version="0.0.2"
+version="0.0.3"
 displayName="SBoos Mod Hello" #mandatory
 updateJSONURL="https://raw.githubusercontent.com/wonderbird/minecraft-forge-hello-world/main/update.json"
 displayURL="https://github.com/wonderbird/minecraft-forge-hello-world"
